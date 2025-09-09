@@ -24,6 +24,15 @@ public class ClassActivity {
         Dog dog = new Dog("Bella", "Brown");
         System.out.println(dog.GetName());
         System.out.println(dog.GetColour());
+
+        // Activity 3
+        Book book1 = new Book("Peppa Pig", "David Schuin");
+        System.out.println(book1.GetTitle());
+        System.out.println(book1.GetAuthor());
         
+        Book book2 = new Book("Fifty shades of grey", "E.L. James", 699.99d);
+        System.out.println(book2.GetTitle());
+        System.out.println(book2.GetAuthor());
+        System.out.println(book2.GetPrice());
     }
 }
