@@ -13,8 +13,11 @@ public class ClassActivity {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+    {
+        Cat cat = new Cat();
+        System.out.println(cat.GetAge());
+        System.out.println(cat.GetName());
     }
     
 }
