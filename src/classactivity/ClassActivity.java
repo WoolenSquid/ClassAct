@@ -15,9 +15,15 @@ public class ClassActivity {
      */
     public static void main(String[] args) 
     {
+        // Activity 1
         Cat cat = new Cat();
         System.out.println(cat.GetAge());
         System.out.println(cat.GetName());
+        
+        // Activity 2
+        Dog dog = new Dog("Bella", "Brown");
+        System.out.println(dog.GetName());
+        System.out.println(dog.GetColour());
+        
     }
-    
 }
