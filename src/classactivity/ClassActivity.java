@@ -66,6 +66,13 @@ public class ClassActivity {
         System.out.println(car1.GetModel());
         System.out.println(car1.GetYear());
         
-        
+        // Activity 8
+        System.out.println("----- Activity 8 -----");
+        Point point1 = new Point(4,5);
+        Point point2 = new Point(5.45D, 5.65D);
+        System.out.println(point1.GetX());
+        System.out.println(point1.GetY());
+        System.out.println(point2.GetX());
+        System.out.println(point2.GetY());
     }
 }
