@@ -59,5 +59,13 @@ public class ClassActivity {
         System.out.println(accountCorrect.GetAccountBalance());
         System.out.println(accountCorrect.GetAccountNumber());
         
+        // Activity 7
+        System.out.println("----- Activity 7 -----");
+        Car car1 = new Car("Opel","Corsa","2008");
+        System.out.println(car1.GetMake());
+        System.out.println(car1.GetModel());
+        System.out.println(car1.GetYear());
+        
+        
     }
 }
