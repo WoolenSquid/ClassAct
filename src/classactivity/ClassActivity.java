@@ -46,10 +46,18 @@ public class ClassActivity {
         System.out.println(student.GetStudentGrade());
         
         // Activity 5
-        System.out.println("----- Activity 4 -----");
+        System.out.println("----- Activity 5 -----");
         Rectangle rectangle = new Rectangle(30,40);
         Rectangle rectangleCopy = new Rectangle(rectangle);
         System.out.println(rectangleCopy.GetLength());
         System.out.println(rectangleCopy.GetWidth());
+        
+        // Activity 6
+        System.out.println("----- Activity 6 -----");
+        Account accountIncorrect = new Account("1234", -12.99D);
+        Account accountCorrect = new Account("12345", 1400.55D);
+        System.out.println(accountCorrect.GetAccountBalance());
+        System.out.println(accountCorrect.GetAccountNumber());
+        
     }
 }
