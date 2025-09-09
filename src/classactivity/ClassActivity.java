@@ -44,5 +44,12 @@ public class ClassActivity {
         System.out.println(student.GetStudentId());
         System.out.println(student.GetStudentName());
         System.out.println(student.GetStudentGrade());
+        
+        // Activity 5
+        System.out.println("----- Activity 4 -----");
+        Rectangle rectangle = new Rectangle(30,40);
+        Rectangle rectangleCopy = new Rectangle(rectangle);
+        System.out.println(rectangleCopy.GetLength());
+        System.out.println(rectangleCopy.GetWidth());
     }
 }
